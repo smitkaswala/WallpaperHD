@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wallpaper.hdwallpaper.coolwallpaper.hdwallpaper.livewallpaper.MainActivity"
+    android:background="@color/background">
+
+      <androidx.viewpager.widget.ViewPager
+          android:id="@+id/pager"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+      </androidx.viewpager.widget.ViewPager>
+
+   <LinearLayout
+       android:id="@+id/linear"
+       android:layout_width="match_parent"
+       android:layout_height="75dp"
+       android:layout_alignParentBottom="true"
+       android:orientation="horizontal">
+
+      <soup.neumorphism.NeumorphCardView
+          android:layout_width="match_parent"
+          android:layout_height="110dp"
+          app:neumorph_shapeType="pressed"
+          app:neumorph_backgroundColor="@color/background"
+          android:background="@color/background">
+
+         <LinearLayout
+             android:layout_marginTop="7dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:gravity="center">
+
+            <soup.neumorphism.NeumorphFloatingActionButton
+                android:id="@+id/iv_house"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="center"
+                android:src="@drawable/ic_home2"
+                app:neumorph_shapeType="flat"
+                android:layout_marginRight="8dp">
+
+            </soup.neumorphism.NeumorphFloatingActionButton>
+
+
+            <soup.neumorphism.NeumorphFloatingActionButton
+                android:id="@+id/iv_like"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="center"
+                android:src="@drawable/ic_favorite"
+                app:neumorph_shapeType="flat"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="58dp">
+
+         </soup.neumorphism.NeumorphFloatingActionButton>
+
+
+            <soup.neumorphism.NeumorphFloatingActionButton
+                android:id="@+id/iv_download"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="center"
+                android:src="@drawable/ic_download"
+                app:neumorph_shapeType="flat">
+
+            </soup.neumorphism.NeumorphFloatingActionButton>
+
+         </LinearLayout>
+
+
+      </soup.neumorphism.NeumorphCardView>
+
+
+   </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FA3F3F</color>
+
+
+
+    <color name="install">#07abe7</color>
+    <color name="liteblue">#0E4764</color>
+    <color name="darkwhite">#EEEEEE</color>
+    <color name="litepink">#AE5574 </color>
+    <color name="line"> #4B4444</color>
+    <color name="colorPrimary">#FF000000</color>
+    <color name="colorPrimaryDark">#171717</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="textcolor">#0E4764</color>
+    <color name="button">#E3E4E7</color>
+    <color name="cardbackground">#F0F1F2</color>
+    <color name="feelcolor">#FFFFFF</color>
+    <color name="header_color">#FFFFFF</color>
+    <color name="main_bg">#F3F3F3</color>
+    <color name="main_home_bg">#292E4B</color>
+    <color name="box_color">#131313</color>
+    <color name="orange">#FF9652</color>
+    <color name="list_bottom">#E9EAEE</color>
+    <color name="color_hint">#BEBEBE</color>
+    <color name="gray">#666666</color>
+    <color name="backcolor">#F9F9F9</color>
+    <color name="color_2">#10CCCCCC</color>
+    <color name="color_3">#20CCCCCC</color>
+    <color name="color_4">#30CCCCCC</color>
+    <color name="color_5">#50CCCCCC</color>
+    <color name="card_background">#ffffff</color>
+    <color name="image_tint">#000000</color>
+    <color name="auto_comp_text">#000000</color>
+    <color name="rating_dialogue_text">#000000</color>
+    <color name="rate_us">#ffffff</color>
+    <color name="start_color">#F6646B</color>
+    <color name="middle_color">#F78C6D</color>
+    <color name="end_color">#F7B76E</color>
+    <color name="back_arrow">#000000</color>
+    <color name="graytime">#929292</color>
+    <color name="skyBlue">#87CEEB</color>
+
+    <color name="primary">#2D7DF6</color>
+    <color name="background">#E4EBF5</color>
+    <color name="primary_text">#0B0D0C</color>
+    <color name="secondary_text">#7D818A</color>
+    <color name="dark_shadow">#CDD5EA</color>
+    <color name="light_shadow">#F8F9FE</color>
+    <color name="dark_icon">#212121</color>
+
+    <color name="lightgray">#A09898</color>
+    <color name="lidhtblack">#545B5E</color>
+    <color name="blacklight">#363D3F</color>
+    <color name="graylight">#898989</color>
+    <color name="lightblue">#4794FF</color>
+    <color name="lightwhight">#F9F9F9</color>
+    <color name="whightlight">#E5E5E5</color>
+</resources>

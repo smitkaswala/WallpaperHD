@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "342929746105",
+    "project_id": "wallpaper-smit",
+    "storage_bucket": "wallpaper-smit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342929746105:android:1c7357e8fd454aabbdd368",
+        "android_client_info": {
+          "package_name": "wallpaper.hdwallpaper.coolwallpaper.hdwallpaper.livewallpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342929746105-fnvbc67g3bec415lcmjlh5n018u1fkhl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlNtSSdZMKHCjtRAclTLlI0s8R2qOBy2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342929746105-fnvbc67g3bec415lcmjlh5n018u1fkhl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home">
+
+    </item>
+
+
+
+    <item
+
+        android:id="@+id/favorite"
+
+        android:title="Favorite"
+
+        android:icon="@drawable/ic_favorite">
+
+    </item>
+
+
+
+    <item
+
+        android:id="@+id/download"
+        android:title="Download"
+        android:icon="@drawable/ic_download">
+
+    </item>
+
+</menu>

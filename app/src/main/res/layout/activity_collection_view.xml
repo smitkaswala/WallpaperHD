@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:orientation="horizontal">
+
+            <soup.neumorphism.NeumorphFloatingActionButton
+                android:id="@+id/back_arrow"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:scaleType="center"
+                android:src="@drawable/ic_arrow_back"
+                app:neumorph_shapeType="flat">
+
+            </soup.neumorphism.NeumorphFloatingActionButton>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/collection_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/lidhtblack"
+                        android:background="@android:color/transparent"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textSize="15sp"
+                        android:hint="Search Collection"
+                        android:textColorHint="@color/lidhtblack"
+                        android:drawableLeft="@drawable/ic_search"
+                        android:windowSoftInputMode="stateHidden"
+                        android:focusable="true"
+                        android:imeOptions="actionDone"
+                        android:singleLine="true"
+                        android:fontFamily="@font/roboto"
+                        android:focusableInTouchMode="true">
+
+                    </AutoCompleteTextView>
+
+                </soup.neumorphism.NeumorphCardView>
+
+<!--                <soup.neumorphism.NeumorphFloatingActionButton-->
+<!--                    android:layout_width="60dp"-->
+<!--                    android:layout_height="60dp"-->
+<!--                    android:scaleType="center"-->
+<!--                    android:src="@drawable/ic_search"-->
+<!--                    app:neumorph_shapeType="flat">-->
+
+
+<!--                </soup.neumorphism.NeumorphFloatingActionButton>-->
+
+<!--                <soup.neumorphism.NeumorphFloatingActionButton-->
+<!--                    android:id="@+id/popup_bar"-->
+<!--                    android:layout_width="65dp"-->
+<!--                    android:layout_height="65dp"-->
+<!--                    android:scaleType="center"-->
+<!--                    android:src="@drawable/ic_baseline"-->
+<!--                    app:neumorph_shapeType="flat">-->
+
+
+<!--                </soup.neumorphism.NeumorphFloatingActionButton>-->
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+<!--        <com.google.android.gms.ads.AdView-->
+<!--            xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+<!--            android:id="@+id/adView"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            ads:adSize="BANNER"-->
+<!--            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">-->
+<!--        </com.google.android.gms.ads.AdView>-->
+
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="20dp"-->
+<!--                    android:layout_marginTop="15dp"-->
+<!--                    android:text="Latest"-->
+<!--                    android:textColor="@color/graytime"-->
+<!--                    android:textSize="18sp" />-->
+
+
+                <ScrollView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:id="@+id/rec_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            tools:listitem="@layout/collation_wallpaper"/>
+
+                        <ProgressBar
+                            android:id="@+id/progress_bar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+            </LinearLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

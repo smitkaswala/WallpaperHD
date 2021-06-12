@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="wallpaper.hdwallpaper.coolwallpaper.hdwallpaper.livewallpaper">
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        tools:overrideLibrary="soup.neumorphism" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:screenOrientation="portrait"
+        android:usesCleartextTraffic="true">
+        <activity android:name="wallpaper.hdwallpaper.coolwallpaper.hdwallpaper.livewallpaper.CollectionViewer"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="wallpaper.hdwallpaper.coolwallpaper.hdwallpaper.livewallpaper.SearchActivity"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="wallpaper.hdwallpaper.coolwallpaper.hdwallpaper.livewallpaper.MainActivity2"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity android:name="wallpaper.hdwallpaper.coolwallpaper.hdwallpaper.livewallpaper.EditingView"
+            android:screenOrientation="portrait"/>
+        <activity android:name="wallpaper.hdwallpaper.coolwallpaper.hdwallpaper.livewallpaper.PrivacyPolicyActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="wallpaper.hdwallpaper.coolwallpaper.hdwallpaper.livewallpaper.FullImageView"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="wallpaper.hdwallpaper.coolwallpaper.hdwallpaper.livewallpaper.CollectionView"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="wallpaper.hdwallpaper.coolwallpaper.hdwallpaper.livewallpaper.MainActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
+
+<!--        <meta-data-->
+<!--            android:name="com.google.android.gms.ads.APPLICATION_ID"-->
+<!--            android:value="@string/app_id" />-->
+
+    </application>
+
+</manifest>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_screen"
+        android:title="HOME SCREEN"
+        android:icon="@drawable/ic_home_screen">
+    </item>
+
+    <item
+        android:id="@+id/lock_screen"
+        android:title="LOCK SCREEN"
+        android:icon="@drawable/ic_lock_screen">
+
+    </item>
+
+    <item
+        android:id="@+id/both_screen"
+        android:title="BOTH SCREEN"
+        android:icon="@drawable/ic_lock_screen">
+
+    </item>
+
+</menu>
